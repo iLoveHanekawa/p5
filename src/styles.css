@@ -1,14 +1,13 @@
 .body {
-    background-color: #323232;
+    background-color: lightgrey;
     height: 100vh;
 }
 
 .infoFlex {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Inter';
     padding: 20px;
-    font-family: Arial, Helvetica;
 }
 
 .ceoTag {
@@ -30,7 +29,6 @@
 .title {
     margin-top: -66px;
     width: 275px;
-    background-color: black;
     text-align: center;
 }
 
@@ -75,7 +73,9 @@ button {
 
 .aboutSection {
     text-align: left;
+    font-family: 'Inter';
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .aboutHead {
@@ -84,4 +84,33 @@ button {
 
 .aboutTxt {
     color: grey;
+}
+
+.appFlex {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    background-color: black;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.bigFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerFlex {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 50px;
+    border-end-end-radius: 15px;
+    padding-top: 5px;
+    border-end-start-radius: 15px;
 }
